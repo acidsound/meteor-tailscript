@@ -7,7 +7,6 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-	api.use('coffeescript');
   api.versionsFrom('1.1.0.3');
   api.addFiles('tailscript.js');
 });
